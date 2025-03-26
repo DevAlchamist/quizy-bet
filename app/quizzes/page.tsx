@@ -82,7 +82,7 @@ export default function QuizzesPage() {
               key={quiz}
               className="relative overflow-hidden hover:shadow-lg transition-shadow"
             >
-              <Link  href="/quiz/id">
+              <Link  href="/quiz">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-secondary/5" />
                 <CardContent className="relative p-6">
                   <div className="flex items-center justify-between mb-4">
